@@ -13,17 +13,17 @@ const Counter: React.FC<CounterProps> = ({ initialCount = 0 }) => {
 
   return (
     <div style={{ textAlign: "center", marginTop: "50px" }}>
-      {/* หัวข้อ */}
+      
       <h2 style={{ fontWeight: "bold", marginBottom: "20px" }}>
         Counter Exercise - Solution
       </h2>
 
-      {/* ตัวเลขนับ */}
+      
       <h1 style={{ fontSize: "48px", color: "deepskyblue", margin: "20px 0" }}>
         {count}
       </h1>
 
-      {/* ปุ่ม */}
+      
       <div style={{ display: "flex", gap: "15px", justifyContent: "center" }}>
         <button
           onClick={increment}
